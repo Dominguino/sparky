@@ -1,0 +1,75 @@
+html, body{
+    display: flex; 
+    flex-direction: column;
+    margin: 0; 
+    height:100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-title{
+    font-size: 3rem; 
+    color: #CEE0ED;
+    background-color: #1087F9;
+    text-align: center;
+    padding: 1rem;
+}
+
+.user{
+    float:right;
+    font-size: 1rem;
+}
+
+.userImage{
+    width:42px;
+    height:42px;
+    float: center;
+}
+
+.header-menu{
+    color: #1087F9;
+    font-size: 1.5rem;
+    padding: 0.5rem; 
+    background-color: #CEE0ED;
+}
+
+.addMenu{
+    width:42px;
+    height:42px;
+    float: right;
+    margin-right: 1rem;
+}
+
+.main-body{
+    background-color: #82BEFF ;
+    height: 100%; 
+}
+
+.grid{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem;
+}
+
+.projectButton-Box{
+    background-color: #1087F9;
+    border: 2px solid #CEE0ED;
+    border-radius: 0.8rem;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+
+
+.Title{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.footer{
+    color: #008D93;
+    background-color:  #CEE0ED;
+    padding: 0.5rem;
+
+}
